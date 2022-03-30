@@ -10,6 +10,8 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 gem "sprockets-rails"
 
 gem "mini_racer"
+
+gem 'simplecov', require: false, group: :test
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3", "~> 1.4"
 
