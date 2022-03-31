@@ -11,7 +11,6 @@ gem "sprockets-rails"
 
 gem "mini_racer"
 
-gem 'simplecov', require: false, group: :test
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3", "~> 1.4"
 
@@ -79,4 +78,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'simplecov', require: false
 end
